@@ -1,6 +1,6 @@
 // pages/_app.js
-import '../styles/styles.css';
- // Make sure this path is correct (e.g., '../styles/style.css' if renamed)
+import '../styles/styles.css'; //imported css file
+
 
 export default function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />;
