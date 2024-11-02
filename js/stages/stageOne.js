@@ -8,7 +8,7 @@ const StageOne = ({ nextStage }) => {
     const [phone, setPhone] = useState('');
 
     useEffect(() => {
-        // Check if localStorage is available, only on client side
+        // Check if localStorage is available on the client side
         if (typeof window !== 'undefined') {
             setFullName(localStorage.getItem('fullName') || '');
             setDob(localStorage.getItem('dob') || '');
@@ -19,7 +19,7 @@ const StageOne = ({ nextStage }) => {
     }, []);
 
     useEffect(() => {
-        // Save values to localStorage whenever they change
+        // Save values to localStorage 
         if (typeof window !== 'undefined') {
             localStorage.setItem('fullName', fullName);
             localStorage.setItem('dob', dob);
@@ -30,7 +30,7 @@ const StageOne = ({ nextStage }) => {
     }, [fullName, dob, nationality, email, phone]);
 
     const handleNext = () => {
-        if (fullName && email) {  // Simple validation example
+        if (fullName && email) {  // Vaildation for required fields
             nextStage();
         } else {
             alert("Please fill out required fields");
