@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2b0f0f, #b21f1f, #fdbb2d);
+    
+}
+
+/* The Container Styling */
+#container {
+    background-color: white;
+    width: 600px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 42px;
+    margin-top: 3vh;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* The Mars Form Header */
+h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Labels on top of each input field*/
+label {
+    display: block;
+    font-size: 15px;
+    color: #000000;
+    text-align: left;
+}
+
+/*Textarea users inputs their information within*/
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+/*Focusing features on textarea*/
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #ff0000;
+    background-color: #f9f9f9;
+}
+
+
+/* Button Styling */
+button,
+input[type="submit"],
+input[type="reset"] {
+    width: 40%;
+    padding: 12px;
+    margin-top: 9px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #b91919;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.5s ease, transform 0.4s ease;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #fdb417;
+    transform: translateY(-9px);
+}
+
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active {
+    transform: translateY(2px);
+}
+
+legend {
+    font-size: 18px;
+    color: #b21f1f;
+    font-weight: bold;
+}
+
+/* Confirmation Message at end of submission form when validated */
+#confirmationMessage {
+    display: none;
+    color: #182c7c;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Animation effects  */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(2);
+    }
+}
