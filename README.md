@@ -1,6 +1,6 @@
 # mars-application
 
-This is a multi-stage application form for a Mars visit, built using **Next.js**. The form includes three stages (personal information, travel preferences, and health and safety) and uses **JavaScript** and **CSS** for functionality and styling.
+I created a multi-stage application form for a Mars tour visit, which I built using Next.js. Using my skill set, I just learned about Next.js today to complete this project, enhancing my skills in JavaScript and CSS for building dynamic and responsive applications. The form itself includes three stages to complete, which are personal information, travel preferences, and health and safety. This project is able to showcase my ability to learn new tech and apply new technologies rapidly.
 
 ## Project Structure
 
