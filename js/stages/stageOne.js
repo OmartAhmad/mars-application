@@ -1,3 +1,4 @@
+// components/StageOne.js
 import { useState, useEffect } from 'react';
 
 const StageOne = ({ nextStage }) => {
