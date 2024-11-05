@@ -9,7 +9,7 @@ const SubmitPage = ({ restartForm }) => {
     }, []);
 
     return (
-        <div id="container">
+        <div id="submit-container">
             <h2>Thank You for Your Application!</h2>
             <p>Your application to visit Mars has been successfully submitted. We will review your details and contact you soon.</p>
             <button onClick={restartForm}>Start New Application</button>
