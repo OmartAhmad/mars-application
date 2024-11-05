@@ -13,7 +13,7 @@ I created a multi-stage application form for a Mars tour visit, which I built us
 
 ### Image 1
 
-![Stage1 Page](./images/image1.png)
+![Stage1 Page](./images/images1.png)
 
 ### Image 2
 
