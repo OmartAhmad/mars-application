@@ -1,3 +1,4 @@
+// components/StageOne.js
 import { useState, useEffect } from 'react';
 
 const StageOne = ({ nextStage }) => {
@@ -46,7 +47,6 @@ const StageOne = ({ nextStage }) => {
 
         setErrors(newErrors);
 
-        // Proceed if there are no errors
         if (!Object.values(newErrors).includes(true)) {
             nextStage();
         }
@@ -59,9 +59,9 @@ const StageOne = ({ nextStage }) => {
                 <p>Tell us about yourself to get started on your Mars adventure.</p>
                 <p><strong>Provide essential details so we can tailor the application process for you.</strong></p>
                 <ul>
-                <li>Enter your full name and contact information</li>
-                <li>Share your nationality and date of birth</li>
-                <li>Help us personalize your Mars experience from the very beginning</li>
+                    <li>Enter your full name and contact information</li>
+                    <li>Share your nationality and date of birth</li>
+                    <li>Help us personalize your Mars experience from the very beginning</li>
                 </ul>
             </div>
             <div id="form-container">
