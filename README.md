@@ -4,7 +4,7 @@ I created a multi-stage application form for a Mars tour visit, which I built us
 
 ## Project Structure
 
-- **js**: Contains form stage components in JavaScript.
+- **components**: Contains form stage components in JavaScript.
 - **pages**: Includes `_app.js` and `index.js` to manage routing and global settings in Next.js.
 - **styles**: Contains `styles.css` for global styling.
 - **test**: Unit tests for form validation.
@@ -13,7 +13,7 @@ I created a multi-stage application form for a Mars tour visit, which I built us
 
 ### Image 1
 
-![Stage1 Page](./images/images1.png)
+![Stage1 Page](./images/image1.png)
 
 ### Image 2
 
